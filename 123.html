@@ -5,13 +5,47 @@
         <title>介紹</title>
         <link rel="stylesheet" href="p.css" type="text/css">
         <style>
-            p {
-                background-color: rgb(93, 155, 248);
-                background-size: 1365px 969px;
+            p {              
+                margin: 0;
+                padding: 10px 15px;
+                overflow: hidden;
+                background-color :rgb(93, 155, 248);
+                background-size: 12px 15px;
+            }
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            a:hover {
+            border-bottom: 1px solid black;
+            }
+            .error {
+            color: red;
+            }
+            li#right{
+              float: right;
+            }
+            #copy nav li{
+                display: inline;
             }
         </style>
     </head>
     <boby>
-        <a href="https://www.youtube.com/">前往youtube</a>
+        <header>
+            <p>
+                <li id="right"><a href="pix.html">圖形</a></li>
+                <li id="right"><a class="active" href="index.html">主要</a></li>
+            </p>
+        </header>
+        <main>
+            
+            <a href="https://www.youtube.com/">前往youtube</a>
+            
+        </main>
+        <footer>
+            <p>
+                <a href="https://www.youtube.com/">前往youtube</a>
+            </p>
+        </footer>
     </boby>
 </html>
